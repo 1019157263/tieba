@@ -1,4 +1,4 @@
-# 贴吧签到Github Action版
+# 贴吧签到Github Action版(修改版,签到完成自动发邮件通知)
 
 ## 今日签到状态
 
