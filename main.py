@@ -228,7 +228,7 @@ def faemeil(xxx='默认'):
 		receivers = ["1019157263@qq.com"]  # 收件人
 		for receiver in receivers:
 		    message = MIMEText(content, "html", "utf-8")
-		    message["From"] = sender
+		    message["From"] = "贴吧签到通知[Actions]"
 		    message["To"] = receiver
 		    message["Subject"] = subject
 		 
