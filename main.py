@@ -240,5 +240,5 @@ if __name__ == '__main__':
     main()
     print(GLO_NUM)
     requests.get(f"https://sc.ftqq.com/SCU117325Tfde0527b88669985d9b2e628c1d4f2435f7fff18248d7.send?text=贴吧签到成功&desp={format(GLO_LIST,GLO_NUM)}")
-#     faemeil(format(GLO_LIST,GLO_NUM))
+    faemeil(format(GLO_LIST,GLO_NUM))
     print("发邮件")
